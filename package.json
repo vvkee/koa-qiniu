@@ -1,0 +1,33 @@
+{
+  "name": "koa2-qiniu",
+  "version": "0.0.1",
+  "description": "koa2七牛云中间件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weizongqi1990/koa-qiniu.git"
+  },
+  "keywords": [
+    "koa2",
+    "qiniu",
+    "upload"
+  ],
+  "author": "weizongqi1990",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weizongqi1990/koa-qiniu/issues"
+  },
+  "homepage": "https://github.com/weizongqi1990/koa-qiniu#readme",
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "moment": "^2.13.0",
+    "qiniu": "^6.1.11"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {}
+}

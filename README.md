@@ -1,6 +1,34 @@
 # koa-qiniu
 
 
+>使用
+
+```
+npm install koa2-qiniu --save
+```
+
+>start
+
+```
+import Koa from 'koa'
+import body from 'koa-better-body'
+import qiniu from 'koa2-qiniu'
+
+const app = new Koa()
+
+// request
+app.use(convert(body({
+    IncomingForm: formidable
+})))
+// 七牛中间件
+app.use(qiniu({
+    bucket: 'your_bucket',
+    ACCESS_KEY: 'your_qiniu_ACCESS_KEY',
+    SECRET_KEY: 'your_qiniu_SECRET_KEY',
+    baseUrl: 'your qiniu url'
+}))
+```
+
 >参数
 
 

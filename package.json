@@ -1,8 +1,8 @@
 {
   "name": "koa2-qiniu",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "koa2七牛云中间件",
-  "main": "index.js",
+  "main": ".lib/qiniu.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
